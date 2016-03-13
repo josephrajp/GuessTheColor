@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	color:#ccc;
+}
+
+.container{
+	max-width:1000px;
+	margin:0 auto;
+	text-align:center;
+}
+
+h1{
+    padding-top: 15px;
+}
+
+#header{
+	height:120px;
+	background-color:#333;
+}
+
+#header span{
+	color:#fff;
+}
+
+#statusBar{
+	background-color:#111;
+	padding-top:12px;
+	margin-top:28px;
+	color:#3498db;
+	font-size:20px;
+}
+
+#status{
+	margin:0 auto;
+	padding-bottom:10px;
+}
+
+#status a{
+	text-decoration: none;
+    color: inherit;
+}
+
+.colorBoxes{
+	margin-top:.7%;
+}
+
+.colorBox {
+	width:31.3%;
+	padding-bottom:30%;
+	float:left;
+	margin:1%;
+	background-color:purple;
+	border-radius: 6%;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
